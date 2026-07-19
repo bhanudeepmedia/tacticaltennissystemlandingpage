@@ -19,6 +19,7 @@ import AboutJacobo from './components/AboutJacobo';
 import FAQ from './components/FAQ';
 import FinalCTA from './components/FinalCTA';
 import InsideAthletePortal from './components/InsideAthletePortal';
+import YouTubeFacade from './components/YouTubeFacade';
 import { TESTIMONIALS } from './data';
 
 const CHECKOUT_URL = 'https://whop.com/checkout/plan_pRLiHuKDuHdIs';
@@ -197,14 +198,7 @@ export default function App() {
           {/* Best student testimony video file */}
           <div className="border border-brand-lime bg-[#080B12] p-1 shadow-2xl">
             <div className="relative aspect-video bg-[#0c0e14] overflow-hidden">
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/O0mLC9DYdWY?autoplay=1&mute=1&rel=0&modestbranding=1&playsinline=1"
-                title="Elite Serve Patterns Final Testimony"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+              <YouTubeFacade videoId="O0mLC9DYdWY" title="Elite Serve Patterns Final Testimony" />
             </div>
           </div>
 

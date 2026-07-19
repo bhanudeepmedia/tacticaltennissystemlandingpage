@@ -5,6 +5,7 @@
 
 import React from 'react';
 import { ArrowRight } from 'lucide-react';
+import YouTubeFacade from './YouTubeFacade';
 
 interface HeroProps {
   onJoinClick: () => void;
@@ -77,14 +78,7 @@ export default function Hero({ onJoinClick }: HeroProps) {
               id="vsl-video-player"
               className="relative aspect-video bg-brand-surface border-2 border-brand-lime overflow-hidden shadow-2xl"
             >
-              <iframe
-                className="absolute inset-0 w-full h-full"
-                src="https://www.youtube.com/embed/O0mLC9DYdWY?autoplay=1&mute=1&rel=0&modestbranding=1&playsinline=1"
-                title="Elite Serve Patterns VSL"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+              <YouTubeFacade videoId="O0mLC9DYdWY" title="Elite Serve Patterns VSL" />
             </div>
           </div>
         </div>

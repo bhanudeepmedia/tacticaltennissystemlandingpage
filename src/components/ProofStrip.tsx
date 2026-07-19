@@ -134,9 +134,9 @@ export default function ProofStrip() {
         {/* 3 Image Accolades Row */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <div className="relative aspect-square bg-[#080B12] overflow-hidden group">
-            <img
+            <img loading="lazy" decoding="async"
               alt="Student Competition Trophies"
-              src="/student-tournament-trophies.jpg"
+              src="/student-tournament-trophies.webp"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-top transition-transform hover:scale-105 duration-500"
             />
@@ -150,9 +150,9 @@ export default function ProofStrip() {
           </div>
 
           <div className="relative aspect-square bg-[#080B12] overflow-hidden group">
-            <img
+            <img loading="lazy" decoding="async"
               alt="Tournament Podium Students"
-              src="/jacobo-coaching-student.jpg"
+              src="/jacobo-coaching-student.webp"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-top transition-transform hover:scale-105 duration-500"
             />
@@ -166,9 +166,9 @@ export default function ProofStrip() {
           </div>
 
           <div className="relative aspect-square bg-[#080B12] overflow-hidden group">
-            <img
+            <img loading="lazy" decoding="async"
               alt="Medal collection"
-              src="/career-medals.jpg"
+              src="/career-medals.webp"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-top transition-transform hover:scale-105 duration-500"
             />
@@ -200,12 +200,18 @@ export default function ProofStrip() {
               </blockquote>
 
               <div className="flex items-center space-x-4 border-t border-brand-border pt-4">
-                <img
-                  alt={testimonial.name}
-                  src={testimonial.avatarUrl}
-                  referrerPolicy="no-referrer"
-                  className="w-12 h-12 object-cover grayscale border border-brand-border hover:grayscale-0 transition-all duration-300"
-                />
+                {testimonial.avatarUrl ? (
+                  <img
+                    loading="lazy"
+                    decoding="async"
+                    alt={testimonial.name}
+                    src={testimonial.avatarUrl}
+                    referrerPolicy="no-referrer"
+                    className="w-12 h-12 object-cover grayscale border border-brand-border hover:grayscale-0 transition-all duration-300"
+                  />
+                ) : (
+                  <div className="w-12 h-12 border border-brand-border shrink-0" />
+                )}
                 <div>
                   <div className="font-display font-bold text-white text-base tracking-wider uppercase">
                     {testimonial.name}

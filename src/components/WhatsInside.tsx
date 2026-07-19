@@ -77,7 +77,7 @@ export default function WhatsInside() {
             <div className="order-1 lg:order-2 relative">
               {/* Premium Visual: Court Geometry Image with Animated Line */}
               <div className="w-full h-[350px] md:aspect-[4/3] md:h-auto rounded-2xl shadow-2xl relative overflow-hidden group border-2 border-slate-800 hover:border-[#5C9400]/50 transition-colors duration-500">
-                <img src="/jacobo-on-court.jpg" alt="Court Geometry" className="absolute inset-0 w-full h-full object-cover object-[center_35%] brightness-75" />
+                <img loading="lazy" decoding="async" src="/jacobo-on-court.webp" alt="Court Geometry" className="absolute inset-0 w-full h-full object-cover object-[center_35%] brightness-75" />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-transparent opacity-80" />
                 
                 {/* Animated Trajectory */}
@@ -100,7 +100,7 @@ export default function WhatsInside() {
               {/* Visual Representation: Video Player Mockup */}
               <div className="aspect-[16/9] bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl relative overflow-hidden group">
                 {/* Background Image fallback */}
-                <img src="/grand-slam-execution.png" alt="Pro Player Analysis" className="absolute inset-0 w-full h-full object-cover object-center opacity-80 group-hover:scale-105 transition-transform duration-700" onError={(e) => e.currentTarget.style.display = 'none'} />
+                <img loading="lazy" decoding="async" src="/grand-slam-execution.webp" alt="Pro Player Analysis" className="absolute inset-0 w-full h-full object-cover object-center opacity-80 group-hover:scale-105 transition-transform duration-700" onError={(e) => e.currentTarget.style.display = 'none'} />
                 
                 <div className="absolute inset-0 bg-slate-900/50" />
                 
@@ -181,7 +181,7 @@ export default function WhatsInside() {
               {/* Visual Representation: Clean Image Mockup */}
               <div className="aspect-[4/3] relative">
                 <div className="absolute inset-0 w-full h-full bg-slate-900 border border-slate-800 rounded-2xl shadow-2xl overflow-hidden z-10 group">
-                  <img src="/this-is-an-intelligent-problem.jpg" alt="Coaching Session" className="w-full h-full object-cover object-top opacity-90 group-hover:scale-105 transition-transform duration-700" onError={(e) => e.currentTarget.style.display = 'none'} />
+                  <img loading="lazy" decoding="async" src="/this-is-an-intelligent-problem.webp" alt="Coaching Session" className="w-full h-full object-cover object-top opacity-90 group-hover:scale-105 transition-transform duration-700" onError={(e) => e.currentTarget.style.display = 'none'} />
                   <div className="absolute bottom-4 left-4 bg-black/80 backdrop-blur-sm px-3 py-1.5 rounded-lg border border-white/10 text-xs text-white font-mono uppercase">
                     ON-COURT FEED
                   </div>
@@ -339,7 +339,7 @@ export default function WhatsInside() {
               <div className="grid grid-cols-2 grid-rows-2 gap-3 w-full h-full p-4 bg-slate-900 border border-slate-800 rounded-3xl shadow-2xl relative z-10">
                 {/* Main Speaker (Jacobo) */}
                 <div className="col-span-2 row-span-1 bg-slate-800 rounded-xl relative overflow-hidden border border-[#D4AF37]/50 shadow-[0_0_15px_rgba(212,175,55,0.2)]">
-                  <img src="/jacobo-main-picture.png" alt="Jacobo Live" className="w-full h-full object-cover object-[center_30%]" onError={(e) => e.currentTarget.style.display = 'none'} />
+                  <img loading="lazy" decoding="async" src="/jacobo-main-picture.webp" alt="Jacobo Live" className="w-full h-full object-cover object-[center_30%]" onError={(e) => e.currentTarget.style.display = 'none'} />
                   <div className="absolute bottom-2 left-2 bg-black/60 backdrop-blur-sm px-2 py-1 rounded text-[10px] text-white flex items-center gap-1.5">
                     <div className="w-1.5 h-1.5 bg-green-500 rounded-full" />
                     Coach Jacobo

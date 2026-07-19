@@ -140,9 +140,9 @@ export default function TheProblem() {
 
         {/* Editorial B&W Photo block */}
         <div className="relative border border-brand-border bg-brand-surface aspect-[21/9] overflow-hidden group">
-          <img
+          <img loading="lazy" decoding="async"
             alt="Frustrated Tennis Player Moody Court"
-            src="/this-is-an-intelligent-problem.jpg"
+            src="/this-is-an-intelligent-problem.webp"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-top brightness-90 group-hover:scale-102 transition-transform duration-700"
           />

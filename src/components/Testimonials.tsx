@@ -89,9 +89,11 @@ export default function Testimonials() {
                   className="absolute inset-0 w-full h-full cursor-pointer hover:border-brand-lime hover:-translate-y-2 transition-all duration-500"
                   onClick={() => setActiveVideo(test.id)}
                 >
-                  <img 
-                    src={`https://img.youtube.com/vi/${test.id}/hqdefault.jpg`} 
+                  <img
+                    src={`https://img.youtube.com/vi/${test.id}/hqdefault.jpg`}
                     alt={test.title}
+                    loading="lazy"
+                    decoding="async"
                     className="absolute inset-0 w-full h-full object-cover opacity-70 group-hover:opacity-40 transition-opacity duration-500"
                   />
                   

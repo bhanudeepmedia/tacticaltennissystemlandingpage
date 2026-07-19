@@ -20,9 +20,9 @@ export default function AboutJacobo() {
           
           {/* Left Column: Full aspect Photo of Coach Jacobo */}
           <div className="lg:col-span-5 relative aspect-[3/4] bg-brand-surface border border-brand-border overflow-hidden">
-            <img
+            <img loading="lazy" decoding="async"
               alt="Jacobo Hernandez Head Coach"
-              src="/jacobo-main-picture.png"
+              src="/jacobo-main-picture.webp"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-top transition-all duration-500 hover:scale-105"
             />
@@ -123,9 +123,9 @@ export default function AboutJacobo() {
         {/* 3 Image rows - Coach with student, receiving recognition, competitive historical */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 pt-4">
           <div className="relative aspect-video bg-brand-surface border border-brand-border overflow-hidden">
-            <img
+            <img loading="lazy" decoding="async"
               alt="Jacobo with student at tour stage"
-              src="/jacobo-coaching-student.jpg"
+              src="/jacobo-coaching-student.webp"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-[center_15%] transition-transform duration-500 hover:scale-105"
             />
@@ -135,9 +135,9 @@ export default function AboutJacobo() {
           </div>
 
           <div className="relative aspect-video bg-brand-surface border border-brand-border overflow-hidden">
-            <img
+            <img loading="lazy" decoding="async"
               alt="Coaching Recognition ceremony"
-              src="/jacobo-on-court.jpg"
+              src="/jacobo-on-court.webp"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-[center_45%] transition-transform duration-500 hover:scale-105"
             />
@@ -147,9 +147,9 @@ export default function AboutJacobo() {
           </div>
 
           <div className="relative aspect-video bg-brand-surface border border-brand-border overflow-hidden">
-            <img
+            <img loading="lazy" decoding="async"
               alt="Historical competing picture"
-              src="/jacobo-action.jpg"
+              src="/jacobo-action.webp"
               referrerPolicy="no-referrer"
               className="w-full h-full object-cover object-[center_18%] transition-transform duration-500 hover:scale-105"
             />

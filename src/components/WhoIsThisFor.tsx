@@ -99,9 +99,9 @@ export default function WhoIsThisFor() {
 
         {/* Wide B&W Image Placeholder */}
         <div className="relative border border-brand-border bg-brand-surface aspect-video overflow-hidden group">
-          <img
+          <img loading="lazy" decoding="async"
             alt="The Complete Tactical Tennis System Banner"
-            src="/tactical-tennis-thumbnail.jpg"
+            src="/tactical-tennis-thumbnail.webp"
             referrerPolicy="no-referrer"
             className="w-full h-full object-cover object-center transition-all duration-700 hover:scale-101"
           />

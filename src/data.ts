@@ -13,7 +13,7 @@ export const TESTIMONIALS: Testimonial[] = [
     level: 'NTRP 4.5 / Club Competitor',
     quote: "Jacobo took me from club player to regional competitor. Nobody else comes close.",
     rating: 5,
-    avatarUrl: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=200&auto=format&fit=crop'
+    avatarUrl: ''
   },
   {
     id: 't2',
@@ -22,7 +22,7 @@ export const TESTIMONIALS: Testimonial[] = [
     level: 'Junior ITF Competitor',
     quote: "I've worked with coaches across three countries. Jacobo is on a different level entirely.",
     rating: 5,
-    avatarUrl: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=200&auto=format&fit=crop'
+    avatarUrl: ''
   },
   {
     id: 't3',
