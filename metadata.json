@@ -1,0 +1,6 @@
+{
+  "name": "Elite Serve Patterns",
+  "description": "Phase 1 of The Tactical Tennis System by Jacobo Hernandez.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

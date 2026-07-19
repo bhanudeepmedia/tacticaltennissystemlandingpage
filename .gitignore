@@ -1,0 +1,20 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+
+# Raw unused photo originals (not referenced by code; public/ has the used copies)
+*.HEIC
+B63300BE-49C5-40B4-B3AD-5937FDB929E8 copy.jpg
+BAE621E7-1D81-467F-A704-9E4E6674EC98.JPG
+Career Medals.JPG
+IMG_4049.JPG
+IMG_4195.JPG
+IMG_9725 copy.JPG
+Jacobo Main Picture.JPG
+Student Tournement Trophies.JPG
+This is an intelligent problem.jpg
